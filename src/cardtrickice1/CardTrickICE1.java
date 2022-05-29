@@ -45,6 +45,10 @@ public class CardTrickICE1 {
         System.out.print("Enter any suit: ");
         String suit = mysc.nextLine();
         
+        Card luckyCard = new Card();             // Hard coded object luckyCard
+        luckyCard.setValue(7);
+        luckyCard.setSuits("clubs");
+        
         //step 3: match with array 
 
         boolean key =false;
